@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+        <link href="https://db.onlinewebfonts.com/c/e5f78b4fb90a80a32be156470cbfead1?family=Avenir+LT+Pro+35+Light" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+
+    <body>
+      <container class="mb-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top m-2">
+          <div class="container-fluid">
+            <a class="navbar-brand fs-3 name" href="./index.html">Marta Sójka</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="./index.html#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./index.html#experience">Experience</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="./index.html#education"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Education
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./index.html#education">Studies</a></li>
+                    <li><a class="dropdown-item" href="./index.html#trainings">Trainings & Certs</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="./index.html#skills" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Skills
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./index.html#technical">Tech Skills</a></li>
+                    <li><a class="dropdown-item" href="./index.html#lang">Languages</a></li>
+                    <li><a class="dropdown-item" href="./index.html#soft">Soft Skills</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./projects.html">Projects</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="./hobby.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Hobby
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item"href="./hobby.html">My Hobby</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./hobby.html#home">Smart Home</a></li>
+                    <li><a class="dropdown-item" href="./hobby.html#music">Music</a></li>
+                    <li><a class="dropdown-item" href="./hobby.html#sport">Aikido</a></li>
+                    <li><a class="dropdown-item" href="./hobby.html#moto">Motorcycle</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </container>
+
+        <div class="flex">
+          <div id="intro">
+            <div id="mycard">
+              <img src="./foto/myfoto_bw_white.jpg" class="foto" id="myfoto" alt="private foto"/>
+              <div id="mydata">
+                <h2 id="name">Marta Sójka</h2>
+                <p class="title">SOFTWARE DEVELOPER & QA ENGINEER</p>
+                <hr>
+                <p class="mb-1 title">Phone: </p>
+                <p class="mb-1">48-501-930-190</p>
+                <p class="mb-1 title">E-mail: </p>
+                <p class="mb-1">martasojka83@gmail.com</p>
+                <p class="mb-1 title">Address:</p>
+                <p class="mb-1"> Kurowice, Łódź Voivodeship,</p>
+                <p class="mb-1"> Poland </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="icons">
+            <a href="tel:+48501930190" target="blank"> <img src="./foto/phone.png" class="icon contact" alt="Phone Icon"/></a>
+            <a href="mailto:martasoojka83@gmail.com" target="blank"> <img src="./foto/mail.png" class="icon contact" alt="Mail Icon"/></a>
+            <a href="https://github.com/MarthaSojka" target="blank"> <img src="./foto/Github_white.png" class="icon" id="github" alt="GitHub"/> </a>
+            <a href="https://www.linkedin.com/in/marta-sojka" target="blank"> <img src="./foto/LinkedIn.webp" class="icon" alt="LinkedIn"/></a>
+            <a href="https://www.facebook.com/marta.sojka.125/" target="blank"> <img src="./foto/Facebook.webp" class="icon" alt="Facebook"/></a>
+          </div>
+
+          <div class="content mb-5" id="about">
+            <h2 class="center">About Me</h2>
+            <p class="center">My name is Martha and I am software developer and quality assurance engineer.</p>
+            <p class="center">A technical mindset and the ease of mastering new technologies and software are the key aspects that have fueled my desire to further develop in the IT industry.</p>
+            <p class="center">With a background in customer-facing roles, I bring valuable experience in managing challenging situations and excellent communication skills, which are crucial for effective collaboration in cross-functional teams.</p>
+            <p class="center">I excel in analytical and logical thinking and have keen eye for details allowing me to analyzing software thoroughly, identifying issues and proposing solutions.</p>
+            <p class="center">I have a strong eagerness to develop professionally and deep interests in innovation, complemented by comprehensive understanding spanning business, and IT domains, forming the foundation for performing effectively in demanding projects.</p>
+            <p class="center">Currently, I am actively enhancing my skill set through various training programs, including the renowned CS50's courses at Harvard University. This experience not only expands my knowledge in the field of computer science, programming languages, but also shapes my problem-solving approach and ability to acquire new skills.</p>
+            <p class="center">I also graduated from the Manual Tester course in Coders Lab, which provided me with a broad knowledge of testing methods throughout software development lifecycle. Recently I obtained the ISTQB ® Certified Tester Foundation Level, which confirms the knowledge aquired during the course.</p>
+            <p class="center">Due to my great passion for programming, I am looking to further develop my skills in Automation Testing now.</p>
+          </div>
+
+          <div class="content mb-5" id="experience">
+            <h2 class="center">Experience</h2>
+       <!--     <div class="vertical-line"> -->
+              <div class="timeline">
+                <div class="event">
+                  <div class="column date">
+                    <h5 class="bold">RS-moto</h5>
+                    <h6 class="des bold">E-commerce Automotive & Motorcycle Company</h6>
+                    <p class="des">02/2015 - 12/2023</p>
+                  </div>
+                  <div class="dot column"></div>
+                  <div class="column description">
+                    <h5 class="bold">E-commerce Business Coordinator</h5>
+                    <p class="des">Customer Service, Orders Processing, Sales Process, Warehouse Management
+                      Keeping Accounting Records, Creating & Analyzing Reports</p>
+                  </div>
+                </div>
+
+                <div class="event">
+                  <div class="column date">
+                    <h5 class="bold">Real Estate Management</h5>
+                    <p class="des bold">Real Estate Company</p>
+                    <p class="des">12/2009 – 01/2015</p>
+                  </div>
+                  <div class="dot column"></div>
+                  <div class="column description">
+                    <h5 class="bold">Office Manager</h5>
+                    <p class="des">Office Staff Management, Maintaining Good Relations with Clients,
+                      Implementing Customer Service Policy, Supervising of Real Estate Appraisals and Commercial Offers</p>
+                  </div>
+                </div>
+
+                <div class="event">
+                  <div class="column date">
+                    <h5 class="bold">Gi Group Poland S.A.</h5>
+                    <h6 class="des bold"> Employment Agency</h6>
+                    <p class="des">05/2004 – 11/2009</p>
+                  </div>
+                  <div class="dot column"></div>
+                  <div class="column description">
+                    <h5 class="bold">Customer Service Area Manager </h5>
+                    <p class="des">Maintaining Good Relations with Business Clients, Managing HR Service Branches & Recruitment Process,
+                      Implementation and Administration of ERP Software, Supervising Payroll Services & Quality Management System
+                      </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="mb-5 mt-5 content" id="education">
+            <h2 class="center">Education</h2>
+            <!-- <div class="vertical-line"> -->
+              <div class="timeline">
+
+                <div class="event">
+                  <div class="column date">
+                    <h5 class="bold">HARVARD UNIVERSITY</h5>
+                    <p class="des">2023 - present</p>
+                  </div>
+                  <div class="dot column"></div>
+                  <div class="column description">
+                    <h5 class="bold">CS50'S Introduction to Computer Science</h5>
+                    <p class="des">Familiarity in languages: C, Python, SQL, and JavaScript plus CSS and HTML</p>
+                    <p class="des">A broad and robust understanding of computer science and programming</p>
+                    <p class="des">How to think algorithmically and solve programming problems efficiently</p>
+                    <p class="des mb-3">Concepts like abstraction, algorithms, data structures, encapsulation,
+                      resource management, security, software engineering, and web development</p>
+
+                    <h5 class="bold">CS50'S Web Programmig with Python and Java Script</h5>
+                    <p class="des mb-3">HTML, CSS, Git, Python, Django, SQL, Models, and Migrations, JavaScript,
+                      User Interfaces, Testing, CI/CD, Scalability and Security</p>
+
+                    <h5 class="bold">CS50'S Introduction to Programming with Python</h5>
+                    <p class="des mb-3">Functions, Variables, Conditionals, Loops, Exceptions, Libraries, Unit Tests,
+                      File I/O, Regular Expressions, Object-Oriented Programming</p>
+                  </div>
+                </div>
+
+                <div class="event">
+                  <div class="column date">
+                    <h5 class="bold">UNIVERSITY OF ŁÓDŹ</h5>
+                    <p class="des">2006 - 2008</p>
+                  </div>
+                  <div class="dot column"></div>
+                  <div class="column description">
+                    <h5 class="bold">Master of Economics</h5>
+                    <p class="des">International Economics Relations</p>
+                  </div>
+                </div>
+
+                <div class="event">
+                  <div class="column date">
+                    <h5 class="bold">WSB UNIVERSITY</h5>
+                    <p class="des">2003 - 2006</p>
+                  </div>
+                  <div class="dot column"></div>
+                  <div class="column description">
+                    <h5 class="bold">Barchelor Degree of Economics</h5>
+                    <p class="des">International Business Relations</p>
+                  </div>
+                </div>
+
+                <div class="event">
+                  <div class="column date">
+                    <h5 class="bold">ELECTRONIC TECHNICAL SCHOOL</h5>
+                    <p class="des">1998 - 2002</p>
+                  </div>
+                  <div class="dot column"></div>
+                  <div class="column description">
+                    <h5 class="bold">Computer Science & Electronic</h5>
+                    <p class="des">IT & Electronic Profile</p>
+                  </div>
+                </div>
+
+              </div>
+            <!-- </div> -->
+          </div>
+
+
+          <div class="mb-5 content" id="trainings">
+            <h2 class="center">Trainings & Cerificates</h2>
+            <!-- <div class="vertical-line"> -->
+              <div class="timeline">
+                <div class="event">
+                  <div class="column date">
+                    <h5 class="bold">SJSI</h5>
+                    <p class="des">03/2024</p>
+                  </div>
+                  <div class="dot column"></div>
+                  <div class="column description">
+                    <h5 class="bold">
+                      ISTQB Certified Tester Foundation Level
+                      <img class="lens" src="./foto/lupa.png" alt="Lens Icon" title="Click to enlarge">
+                      <img class="mini" src="./foto/ISTQB.jpg" alt="Certificate" title="Click to close"> 
+                    </h5>
+                    <p class="des mb-3"> </p>
+                  </div>
+                </div>
+
+                <div class="event">
+                  <div class="column date">
+                    <h5 class="bold">CODERS LAB</h5>
+                    <p class="des">03/2024</p>
+                  </div>
+                  <div class="dot column"></div>
+                  <div class="column description">
+                    <h5 class="bold">
+                      Manual Tester
+                      <img class="horizontalLens" src="./foto/lupa.png" alt="Lens Icon" title="Click to enlarge">
+                      <img class="horizontal" src="./foto/TesterCert.jpg" alt="Certificate" title="Click to close">
+                    </h5>
+                    <p class="des mb-3">Testing Throughout the Software Development Lifecycle, Test techniques, Creating test cases, Executing test cases; Reporting defects, Databases, JIRA, API, retests. </p>
+                  </div>
+                </div>
+
+                <div class="event">
+                  <div class="column date">
+                    <h5 class="bold">CODE FIRST GIRLS</h5>
+                    <p class="des">2023 - 2024</p>
+                  </div>
+                  <div class="dot column"></div>
+                  <div class="column description">
+                    <h5 class="bold">
+                      Python and Apps
+                      <img class="lens" src="./foto/lupa.png" alt="Lens Icon" title="Click to enlarge">
+                      <img class="mini" src="./foto/Python_and_Apps.jpg" alt="Certificate" title="Click to close">
+                    </h5>
+                    <p class="des mb-3">Kickstarter Course</p>
+                    <h5 class="bold">
+                      Intro to Web Development
+                      <span class="cert">
+                        <img class="lens" src="./foto/lupa.png" alt="Lens Icon" title="Click to enlarge">
+                        <img class="mini" src="./foto/WebDevCert.jpg" alt="Certificate" title="Click to close">
+                      </span>
+                    </h5>
+                    <h5 class="bold">
+                      Intro to Python 
+                      <span class="cert">
+                        <img class="lens" src="./foto/lupa.png" alt="Lens Icon" title="Click to enlarge">
+                        <img class="mini" src="./foto/PythonCert.jpg" alt="Certificate" title="Click to close">
+                      </span>
+                    </h5>
+                    <h5 class="bold">
+                      Intro to Web App Security
+                      <span class="cert">
+                        <img class="lens" src="./foto/lupa.png" alt="Lens Icon" title="Click to enlarge">
+                        <img class="mini" src="./foto/SecurityCert.jpg" alt="Certificate" title="Click to close">
+                      </span>
+                    </h5>
+                    <p class="des">Mooc Sprints</p>
+                   </div>
+                </div>
+
+                <div class="event">
+                  <div class="column date">
+                    <h6 class="bold">SPEAK UP ENGLISH SCHOOL</h6>
+                    <p class="des">2023</p>
+                  </div>
+                  <div class="dot column"></div>
+                  <div class="column description">
+                    <h5 class="bold">
+                      Level Advanced 1
+                      <span class="cert">
+                        <img class="horizontalLens" src="./foto/lupa.png" alt="Lens Icon" title="Click to enlarge">
+                        <img class="horizontal" src="./foto/C1.jpg" alt="Certificate" title="Click to close">
+                      </span>
+                    </h5>
+                    <p class="des">Council of Europe C1</p>
+                  </div>
+                </div>
+
+              </div>
+            <!-- </div> -->
+          </div>
+
+          <div class="mb-5" id="technical"></div>
+          <div class="technical">
+            <h2 class="center"> Tech Stack</h2>
+          </div>
+          <div class="flex">
+            <div id="tech">
+              <div class="tech-stack">
+                <p class="stack">HTML</p>
+                <p class="stack">CSS / SCSS</p>
+                <p class="stack">JavaScript</p>
+                <p class="stack">Python</p>
+                <p class="stack">Java</p>
+                <p class="stack">C</p>
+                <p class="stack">PHP</p>
+                <p class="stack">SQL</p>
+                <p class="stack">Bootstrap</p>
+                <p class="stack">Flask</p>
+                <p class="stack">Django</p>
+                <p class="stack">Jira</p>
+                <p class="stack">Test FLO</p>
+                <p class="stack">Test Rail</p>
+                <p class="stack">Soap UI</p>
+                <p class="stack">Postman</p>
+                <p class="stack">Virtual Studio Code</p>
+                <p class="stack">GitHub</p>
+                <p class="stack">Linux</p>
+                <p class="stack">MS Office</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-5 content" id="lang">
+            <h2 class="center">Languages</h2>
+            <div class="skills">
+              <ul class="skills-list">
+                <li class="item">Polish - Native Speaker</li>
+                <li class="item">English - Advanced C1</li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="mb-5 content" id="soft">
+            <h2 class="center">Soft Skills</h2>
+            <div class="skills">
+              <ul class="skills-list">
+                <li class="item">Fast Learner</li>
+                <li class="item">Technical Mindset</li>
+                <li class="item">Analytical Thinking</li>
+                <li class="item">Multitasking</li>
+                <li class="item">Datail-Oriented</li>
+                <li class="item">Great Team Player</li>
+                <li class="item">Great Problem-Solving Skills</li>
+                <li class="item">High Interpersonal Skills</li>
+                <li class="item">Great Team Player</li>
+                <li class="item">Proactive Approach To Tasks</li>
+                <li class="item">Keen Eye for Details</li>
+                <li class="item">Objective-Oriented</li>
+                <li class="item">Organizational Skills</li>
+                <li class="item">Self-Motivated & Independent</li>
+                <li class="item">Comprehensive Knowledge</li>
+                <li class="item">Customer Oriented</li>
+              </ul>
+            </div>
+          </div>
+
+
+
+<!--
+          <div class="content" id="skills">
+            <h3 class="center">Experience</h3>
+            <div class="vertical-line" id="animatedLine">
+              <div class="event">
+                <div class="left-side">
+                  01.01.2020
+                </div>
+                <div class="dot"></div>
+
+                <div class="right-side">
+                  <h3>Stanowisko 1</h3>
+                  <p>Opis stanowiska 1.</p>
+                </div>
+              </div>
+            </div>
+
+          -->
+
+<!--
+           </div>
+          </div>
+          <div class="content" id="skills">
+            <h3 class="center">Experience</h3>
+            <div class="vertical-line" id="animatedLine">
+              <div class="container text-center">
+                <div class="row align-items-center">
+                  <div class="col">
+                    One of three columns
+                  </div>
+                  <div class="col">
+                    One of three columns
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+-->
+
+
+
+        <footer class="py-3 my-3">
+          <p class="text-center text-muted">© 2024 By Marta Sójka</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
