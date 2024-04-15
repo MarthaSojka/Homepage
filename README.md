@@ -1,6 +1,7 @@
-# My Private Homepage
+# MY PRIVATE HOMEPAGE
 #### Video Demo: <>
 #### Description
+
 My personal website serves as a comprehensive portfolio and Curriculum Vitae, showcasing my skills as a web developer alongside my professional career trajectory and educational background, completed trainings, and obtained certificates. Crafted with HTML, CSS, and JavaScript, this website integrates dynamic elements, fully responsive design, and Bootstrap components to create an engaging user experience.
 Key Features
 - Dynamic Interactivity: JavaScript enhances the website with dynamic elements and interactive features, making it more engaging for visitors. 
@@ -9,12 +10,19 @@ Key Features
 - Optimized Performance: The website is optimized for fast loading times and smooth navigation, ensuring a seamless browsing experience.
 
 For my web site, I opted to craft the styling practically by developing an extensive system of identifiers and classes in my HTML, to which I directly apply styling in the styles.css file. However, following the principle of "don't reinvent the wheel," I decided to use Bootstrap for styling the navigation bar, which is fully responsive and perfectly suited my needs. The navbar is fully functional and includes links to subsequent sections of my website. Clicking on my name on the left navbar allows users to return to the home page.
+
 At the outset of my page, there is a business card-like section with basic contact information. Using JavaScript, I’ve added a function that applies additional classes to elements selected by ID from my HTML. Upon DOM content load, these elements gain visible classes, styled in CSS with transition properties, causing them to appear and move to their final positions. I find this initial animation to be quite engaging. It was challenging to rearrange elements in responsive mode (after changing the resolution below 768px) using media queries to ensure that the business card elements did not overlap subsequent page elements.
+
 Immediately below my business card, there is a bar with icons that redirect the user to relevant services: the phone initiates a call function, the e-mail redirects to the user's email app, and the remaining icons, which are links, open my profiles on GitHub and popular social media platforms like LinkedIn and Facebook.
+
 “About me” section is a summary of my profile, which remains static for readability. Then, there are elements displaying the progression of my professional career and education in reverse chronological order. I decided to make them dynamic for better user experience. When they come into the user’s view, they gain visibility classes and start moving to their final positions through the translate property. The elements move from the right and left to the page axis, allowing users to observe their constant movement while scrolling through the page. In responsive mode, elements appear one after the other, centering themselves, and the movement is adjusted to be more user-friendly.
+
 When the “Training & Certificates” section is reached, each completed course triggers an interactive feature: a magnifying glass icon. Upon clicking, it transforms into a certificate image and smoothly moves to the center of the page using JavaScript. After clicking anywhere on the page, the image shrinks back and disappears. Positioning the enlarged elements correctly was a challenge due to differences in size and shape, but I resolved it by setting their positions to ensure legibility. Adding media queries to support responsive mode, I changed the position of enlarged elements to display them in the middle of the page. Implementing this feature required careful scripting but resulted in an engaging effect that showcases my effectively showcases my certifications.
+
 Upon scrolling to the section “Tech Stack”, rectangles representing my acquired skills gradually increase in size, providing a visual representation of my proficiency level in different technologies and tools. As the page’s elements shrink in resolution, elements from the flexbox move to new positions, and the container’s size adjusts to the arrangement of elements.
+
 Below you can find more information about my knowledge of languages and soft skills. In these sections, individual bullet points smoothly animate onto the page from the bottom, adding a dynamic touch to the presentation.
+
  There are two more subpages representing my projects and hobbies. The text on the websites has similar transition functionality while scrolling. On the website describing my projects, I included information about my coding journey. Additionally, there are some photos of my projects on the website, which are links to their respective repositories on my GitHub. I decided to dynamically scale them while hovering over the image, aiming to make the photo appear larger, without increasing its size. To achieve this, I placed the photo in a separate container with the overflow property se to hidden. 
 
 As I conclude my journey with Harvard CS50, this website stands as a testament to my growth and achievements in the field of web development. It encapsulates my dedication to learning and my passion for crafting innovative digital experiences.
