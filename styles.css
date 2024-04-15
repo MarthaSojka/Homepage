@@ -308,8 +308,7 @@ img.contact {
     margin-top: 7em !important;
 }
 
-img.hobby,
-img.proj {
+img.hobby {
     max-width: 560px;
     max-height: 100%;
     align-self: center;
@@ -323,11 +322,21 @@ img.proj {
 }
 
 .zoomDiv {
+    max-width: 560px;
+    max-height: content-height;
     overflow: hidden;
     padding: 0;
     display: inline-flex;
     position: relative;
     float: left;
+    box-shadow: 0 0 5px 3px lightslategrey;
+    box-sizing: border-box;
+    transition: box-shadow 1s ease;
+}
+
+.zoomDiv:hover {
+    box-shadow: 0px 0px 5px 3px lightslategrey,
+                5px 5px 20px rgba(0, 0, 0, 0.7);
 }
 
 div.left {
@@ -342,19 +351,17 @@ div.right {
 
 img.zoom {
     transition: transform 3s ease;
+    max-width: 560px;
+    max-height: 100%;
   }
   
 img.zoom:hover {
     transform: scale(1.2);
   }
 
-img.float-start {
+img.float-left {
     margin: 1% 4% 5% 0;
-}
-
-img.portfolio {
     float: left;
-    margin: 2% 4% 2% 0;
 }
 
 .inactive {
@@ -467,8 +474,8 @@ label {
 
 @media (max-width: 880px) {
     img.hobby,
-    img.proj {
-        display: block;
+    img.float-left {
+        display: block !important;
         margin: 0 auto;
         clear: both;
         float: none;
@@ -477,6 +484,17 @@ label {
         transition: none;
     }
 
+    .zoomDiv,
+    .left {
+        display: block;
+        float: none !important;
+        margin: 4% auto !important;
+        transition: none;
+    }
+
+
+
+
     .projects,
     .hobby {
         transition: none;
@@ -484,6 +502,7 @@ label {
         margin-bottom: 2em;
         margin-top: 2em;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -586,6 +605,10 @@ label {
 
     li {
         list-style-type: none;
+    }
+
+    li.dotted {
+        list-style-type: inherit;
     }
 
     .mini.enlarged {
