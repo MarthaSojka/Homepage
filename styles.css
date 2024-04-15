@@ -1,3 +1,5 @@
+h3@import url(https://db.onlinewebfonts.com/c/e5f78b4fb90a80a32be156470cbfead1?family=Avenir+LT+Pro+35+Light);
+
 html,
 body {
     background-color: #f8f9fa;
@@ -314,11 +316,37 @@ img.proj {
     /*border-style: groove;*/
     box-shadow: 0 0 5px 3px lightslategrey;
     margin-top: 4%;
-    margin: 1% 0 5% 4%;
+    margin: 1% 0 3% 4%;
     display: inline-flex;
     float: right;
     clear: both;
 }
+
+.zoomDiv {
+    overflow: hidden;
+    padding: 0;
+    display: inline-flex;
+    position: relative;
+    float: left;
+}
+
+div.left {
+    float: left;
+    margin: 2% 4% 2% 0%;
+}
+
+div.right {
+    float: right;
+    margin: 2% 0% 2% 4%;
+}
+
+img.zoom {
+    transition: transform 3s ease;
+  }
+  
+img.zoom:hover {
+    transform: scale(1.2);
+  }
 
 img.float-start {
     margin: 1% 4% 5% 0;
@@ -353,6 +381,7 @@ img.portfolio {
     z-index: 1;*/
     right: -1em;
     top: -0.15em;
+    z-index: 1;
 }
 
 .mini,
