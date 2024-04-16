@@ -577,8 +577,16 @@ label {
         min-width: 10em;
     }
 
-    img.hobby,
+    .zoomDiv {
+        max-width: 80%;
+        max-height: auto;
+    }
+
     img.proj {
+        max-width: 100%;
+    }
+
+    img.hobby {
         display: block;
         margin: 2% auto;
         clear: both;
