@@ -405,7 +405,7 @@ img.float-left {
 }
 
 .mini.enlarged {
-    transform:  translateY(0em) translateX(-15em) scale(22);
+    transform:  translateY(0em) translateX(-15em) scale(24);
     transform-origin: bottom;
     display: block;
     background-color: white;
@@ -414,6 +414,10 @@ img.float-left {
     z-index: 10;
     cursor: pointer;
     pointer-events: none;
+}
+
+.cs50.enlarged {
+
 }
 
 .horizontal.enlarged {
